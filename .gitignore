@@ -361,4 +361,4 @@ MigrationBackup/
 node_modules/
 
 # Generated files from webpack
-wwwroot/js/main.js
+**/wwwroot/js/main.js
