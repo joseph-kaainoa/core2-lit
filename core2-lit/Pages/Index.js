@@ -2,4 +2,6 @@
 
 const myTemplate = (name) => html`<p>Hello ${name}</p><p>From lit-html!</p>`;
 
-render(myTemplate('World!'), document.getElementById("lit-content"));
+const container = document.getElementById("lit-content");
+const value = container['data-value'];
+render(myTemplate(value), container);
